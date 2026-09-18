@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface CashMemberRepository extends JpaRepository<CashMember, Integer> {
 
-    Optional<CashMember> findByUserName(String username);
+    Optional<CashMember> findByUsername(String username);
 }
